@@ -38,6 +38,7 @@ namespace trianguloEquilatero
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Name = "FrmEquilatero";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.FrmEquilatero_Load);
             this.ResumeLayout(false);
 
         }
